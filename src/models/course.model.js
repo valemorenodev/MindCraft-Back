@@ -16,7 +16,7 @@ const lessonSchema = new mongoose.Schema(
   { _id: true }
 );
 
-const courseSchema = new mongoose.Schema(
+const course = new mongoose.Schema(
   {
     title: {
       type: String,
@@ -55,4 +55,4 @@ const courseSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export const Course = mongoose.model('Course', courseSchema);
+export const Course = mongoose.model('Course', course);

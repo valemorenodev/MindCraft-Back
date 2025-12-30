@@ -1,5 +1,3 @@
-// ejemplo de env
-
 // PORT=3000
-// MONGO_URI=mongodb://localhost:27017/mindcraft
-// JWT_SECRET=super-secret-key
+// // MONGO_URI=mongodb+srv://SuperAdmin:KkyAxqK0sGWd6tfe@cluster0.rqzi6mu.mongodb.net/mindcraft
+// JWT_SECRET=6d798b779fc17951a9cde2e335fdd2efa52817766f7906709aeffe9d3542f0549e9a34a3d69fdd6cf39854049defc1a28851002a0c9ccac2e80ab704f1ebd0ae
