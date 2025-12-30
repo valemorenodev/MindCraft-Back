@@ -1,4 +1,5 @@
 import express from 'express';
+import cors from 'cors';
 
 import authRoutes from './routes/auth.routes.js';
 import usersRoutes from './routes/users.routes.js';
@@ -6,6 +7,11 @@ import coursesRoutes from './routes/courses.routes.js';
 import progressRoutes from './routes/progress.routes.js';
 
 const app = express();
+
+app.use(cors({
+  origin: 'http://localhost:4200',
+  credentials: true
+}));
 
 app.use(express.json());
 
